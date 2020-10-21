@@ -8,10 +8,7 @@
 </head>
 <body>
   <?php
-$servername = "localhost";
-$username = "admin";
-$password = "admin";
-$dbname = "proves";
+include 'cofig.php';
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
