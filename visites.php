@@ -1,5 +1,10 @@
 <?php
 $visites=1;
+if(!isset($_COOKIE['num_visites'])) {
+  $visites=1;
+} else {
+  $visites=$_COOKIE['num_visites']+1;
+}
 setcookie("num_visites", $visites); // 86400 = 1 day
 ?>
 
