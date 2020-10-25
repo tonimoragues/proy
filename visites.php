@@ -1,3 +1,8 @@
+<?php
+$visites=1;
+setcookie("num_visites", $visites); // 86400 = 1 day
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +13,6 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 </head>
 <body>
-<h1>Has visitat aquesta pàgina $visites vegades!</h1>
+<h1>Has visitat aquesta pàgina <?php echo $visites; ?> vegades!</h1>
 </body>
 </html>
