@@ -15,11 +15,11 @@
         <form action="mostra-form.php" method="get">
           <div class="form-group">
             <label for="nom">Nom</label>
-            <input type="text" class="form-control" id="nom" aria-describedby="nomHelp" placeholder="el vostre nom">
+            <input type="text" class="form-control" id="nom" name="nom" aria-describedby="nomHelp" placeholder="el vostre nom">
           </div>
           <div class="form-group">
             <label for="cognom">Nom</label>
-            <input type="text" class="form-control" id="cognom" aria-describedby="emailHelp" placeholder="el vostre cognom">
+            <input type="text" class="form-control" id="cognom" name="cognom" aria-describedby="emailHelp" placeholder="el vostre cognom">
           </div>
           <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
