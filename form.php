@@ -18,7 +18,7 @@
             <input type="text" class="form-control" id="nom" name="nom" aria-describedby="nomHelp" placeholder="el vostre nom">
           </div>
           <div class="form-group">
-            <label for="cognom">Nom</label>
+            <label for="cognom">Cognom</label>
             <input type="text" class="form-control" id="cognom" name="cognom" aria-describedby="emailHelp" placeholder="el vostre cognom">
           </div>
           <button type="submit" class="btn btn-primary">Enviar</button>
