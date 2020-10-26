@@ -7,6 +7,6 @@
   <title>Document</title>
 </head>
 <body>
-  <h2><?php echo "Benvingut ".$_GET["nom"]." ".$_GET["cognom"]; ?></h2>
+  <h2><?php echo "Benvingut ".$_POST["nom"]." ".$_POST["cognom"]; ?></h2>
 </body>
 </html>

@@ -12,7 +12,7 @@
   <div class="container">
     <div class="row">
       <div class="col">
-        <form action="mostra-form.php" method="get">
+        <form action="mostra-form.php" method="post">
           <div class="form-group">
             <label for="nom">Nom</label>
             <input type="text" class="form-control" id="nom" name="nom" aria-describedby="nomHelp" placeholder="el vostre nom">
