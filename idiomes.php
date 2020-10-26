@@ -16,7 +16,7 @@ $headers=getallheaders();
 
 <h1>
   <?php
-  print($headers["User-Agent"]);
+  print($headers["Accept-Language"]);
 
   $lang="ca";
   switch ($lang) {
