@@ -16,9 +16,9 @@ $headers=getallheaders();
 
 <h1>
   <?php
-  print($headers["Accept-Language"]);
+  //print($headers["Accept-Language"]);
 
-  $lang="ca";
+  $lang=substr($headers["Accept-Language"],0,2);
   switch ($lang) {
       case "ca":
           echo "Benvinguts a la meva pàgina web";
