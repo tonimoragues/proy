@@ -1,6 +1,5 @@
 <?php
 $headers=getallheaders();
-//print($headers["User-Agent"]);
 ?>
 
 <!DOCTYPE html>
@@ -17,6 +16,8 @@ $headers=getallheaders();
 
 <h1>
   <?php
+  print($headers["User-Agent"]);
+
   $lang="ca";
   switch ($lang) {
       case "ca":
